@@ -1,0 +1,6 @@
+/swagger-parse
+/swagger-parse.iml
+**/.idea/
+*.csv
+*.yaml
+*.yml

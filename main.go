@@ -9,10 +9,10 @@ import (
 
 func main() {
 	fileName := "swagger.yaml"
-	if len(os.Args)>1{
+	if len(os.Args) > 1 {
 		fileName = os.Args[1]
 	}
-	log.Printf("%s",fileName)
+	log.Printf("%s", fileName)
 	yaml, err := ReadYaml(fileName)
 	if err != nil {
 		log.Fatalf("Unmarshal: %v", err)
